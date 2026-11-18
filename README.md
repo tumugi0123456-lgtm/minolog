@@ -6,7 +6,7 @@
 
 ## ダウンロード
 
-[Releases](../../releases) から `ミノログ_v0.1.2-alpha.zip` を落としてください。
+[Releases](../../releases) から `minolog_v0.1.2-alpha.zip` を落としてください。
 
 ## できること
 
