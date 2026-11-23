@@ -19,17 +19,17 @@ Get the newest `minolog_v….zip` from [Releases](../../releases).
 3. Fixes missed HOLD swaps.
 4. Writes the record (JSON) and an HTML report where you can step through the board one move at a time. The report also marks "mistake" candidates by comparing each move with the choice of a strong Tetris AI (Cold Clear). Treat these as a reference only.
 
-On 9 recordings (49,973 moves in total), 99.5% of the moves (49,738) ended up in the record. Moves that could not be read are left empty rather than guessed. Of the moves that were filled in at step 2, roughly 1 in 100 may be wrong.
+On 7 recordings (9 boards, counting the left and right sides separately; 49,973 moves in total), 99.5% of the moves (49,738) ended up in the record. Moves that could not be read are left empty rather than guessed. Of the moves that were filled in at step 2, roughly 1 in 100 may be wrong. Moves read from the screen in step 1 can also be wrong (on one recording, 9 of 263 checked moves; mostly missed HOLD swaps, counted before step 3 corrects HOLD).
 
 ## Recordings that work
 
 - The PC version of Puyo Puyo Tetris 2, recorded in 1920x1080 fullscreen.
 - A versus match. At the start you choose which board to read: left (1P), right (2P), or both. The board you read must be a Tetris board.
-- Very fast play (close to 2 pieces per second) or very slow piece movement may not be read.
+- Very fast play or very slow piece movement may not be read (the fastest recordings read so far were about 2.4 pieces per second).
 
 ## How to use
 
-1. Extract the zip (right-click → "Extract All").
+1. Extract the zip (right-click → "Extract All"). If you downloaded the zip with a browser, right-click the zip before extracting it, choose Properties, tick "Unblock" at the bottom and press OK. This avoids most "Windows protected your PC" warnings when opening the .bat files and exes. If the warning appears, click "More info", then "Run anyway" (Minolog is not code-signed).
 2. Once, the first time: double-click `セットアップ.bat` (setup). If .NET 9 or Python is missing, it asks whether to install them. Answer `y` to install.
 3. Drag and drop your recording onto `ミノログ.bat`.
 4. Choose the board by number: `1` = 1P, `2` = 2P, `3` = both. Pressing Enter alone means 1P.
@@ -42,7 +42,7 @@ Results are written to `結果\<recording name>\1P\` (or `2P\`). The record itse
 ## Requirements
 
 - Windows 10 / 11 (64-bit)
-- .NET 9 Desktop Runtime and Python 3.10 or later (setup checks for both)
+- .NET 9 Desktop Runtime and Python 3.11 or later (setup checks for both)
 
 It has not been tested much on PCs other than the author's. If setup stops, please tell us in Issues.
 
