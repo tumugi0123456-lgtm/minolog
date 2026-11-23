@@ -8,7 +8,7 @@
 
 ## ダウンロード
 
-[Releases](../../releases) から最新の `minolog_v….zip`(いまは `minolog_v0.1.15-alpha.zip`)を落としてください。
+[Releases](../../releases) から最新の `minolog_v….zip`(いまは `minolog_v0.1.16-alpha.zip`)を落としてください。
 
 ## できること
 
