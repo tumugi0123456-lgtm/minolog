@@ -6,7 +6,7 @@ Minolog is a Windows tool that turns a recording (mp4) of a Puyo Puyo Tetris 2 v
 
 **This is an alpha release.** It is free to use. It is an unofficial tool made by an individual, and is not affiliated with SEGA, The Tetris Company, or Tetris Holding.
 
-The program's screens, file names, and reports are in Japanese. This page explains what to click.
+The program's screens, file names, and most reports are in Japanese. From 0.1.16, the start page, the statistics and the mistake summary also come in English (`入口.en.html` and so on), and `Minolog (English).bat` opens the English start page when it finishes. This page explains what to click.
 
 ## Download
 
