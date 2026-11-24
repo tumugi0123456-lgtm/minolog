@@ -8,7 +8,9 @@
 
 ## ダウンロード
 
-[Releases](../../releases) から最新の `minolog_v….zip`(いまは `minolog_v0.1.16-alpha.zip`)を落としてください。
+[Releases](../../releases) から最新の `minolog_v….zip`(いまは `minolog_v0.1.17-alpha.zip`)を落としてください。
+
+.NET や Python を PC に入れたくないときは、同じページの同梱版 `minolog_v…_portable.zip`(約 177MB。0.1.17 から)を落としてください。.NET 10 と Python が中に入っていて、セットアップが要りません。
 
 ## できること
 
