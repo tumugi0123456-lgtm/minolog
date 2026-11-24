@@ -12,6 +12,8 @@ The program's screens, file names, and most reports are in Japanese. From 0.1.16
 
 Get the newest `minolog_v….zip` from [Releases](../../releases).
 
+If you would rather not install .NET or Python, download the bundled build `minolog_v…_portable.zip` from the same page instead (about 177 MB, from 0.1.17; .NET 10 and Python are inside, no setup needed).
+
 ## What it does
 
 1. Splits the recording into frames and reads the moves from the screen.
