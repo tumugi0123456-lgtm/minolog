@@ -12,7 +12,7 @@ The program's screens, file names, and most reports are in Japanese. From 0.1.16
 
 Get the newest `minolog_v….zip` from [Releases](../../releases).
 
-If you would rather not install .NET or Python, download the bundled build `minolog_v…_portable.zip` from the same page instead (about 177 MB, from 0.1.17; .NET 10 and Python are inside, no setup needed).
+If you would rather not install .NET or Python, download the bundled build `minolog_v…_portable.zip` from the same page instead (about 242 MB, from 0.1.17; .NET 10 and Python are inside, no setup needed).
 
 ## What it does
 
@@ -37,6 +37,7 @@ On 7 recordings (9 boards, counting the left and right sides separately; 49,973 
 - The PC version of Puyo Puyo Tetris 2, recorded in 1920x1080 fullscreen (the author's recordings are 60 fps, about 13 Mbps; 10 Mbps or more is recommended).
 - A versus match. At the start you choose which board to read: left (1P), right (2P), or both. The board you read must be a Tetris board.
 - Very fast play or very slow piece movement may not be read (the fastest recordings read so far were about 2.4 pieces per second).
+- A YouTube video also works if you paste its URL (from 0.2.1; it must be up in 1080p). It gives more wrong moves than the original recording (about 2.5–2.8% for a 17-minute recording), so use the original recording if you have it.
 
 ## How to use
 
